@@ -6,3 +6,5 @@ add_executable(
 )
 
 target_link_libraries(JsonIoTest ${JANSSON_LIBRARY} MemFuse)
+
+add_test("JsonIoTest" JsonIoTest)
